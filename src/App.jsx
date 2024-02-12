@@ -2,13 +2,13 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 // import './App.css'
-import FirstHtml from './practice/FirstHtml'
+// import FirstHtml from './practice/FirstHtml'
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
     <>
-        <FirstHtml />
+        {/* <FirstHtml /> */}
         <button className="bg-pink-600 text-sm text-white flex flex">
           Submit
         </button>
