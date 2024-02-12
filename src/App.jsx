@@ -3,44 +3,19 @@
 // import viteLogo from '/vite.svg'
 // import './App.css'
 // import FirstHtml from './practice/FirstHtml'
+
+// import Login from './pages/LoginPage'
+import Register from './pages/RegisterPage'
+
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
     <>
-        {/* <FirstHtml /> */}
-        <button className="bg-pink-600 text-sm text-white flex flex">
-          Submit
-        </button>
-
-        {/* <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      
-      <div className="tailwind-text-red-500">
-        this is tailwind text
-      </div>
-      
-      <button type="button" className="tailwind-bg-teal-600">
-        Bootstrap <span className="badge tailwind-bg-red-500">4</span>
-      </button>
-
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p> */}
+    <div className="main-app">
+      <Register />
+      {/* <Login /> */}
+    </div>
     </>
   )
 }
