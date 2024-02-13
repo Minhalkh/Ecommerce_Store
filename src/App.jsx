@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-    <div className="main-app">
+    <div className="main-app tl-flex tl-justify-center tl-items-center tl-h-[100vh]">
       <Register />
       {/* <Login /> */}
     </div>
