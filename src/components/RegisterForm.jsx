@@ -1,12 +1,13 @@
 // This is RegisterForm
-import welcomeImage from "../assets/images/welcome.jpeg"
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom'
+import welcomeImage from "../assets/images/welcome.jpg"
 
 function RegistrationForm() {
   return (
     <div className="tl-flex tl-h-[500px] tl-shadow-2xl tl-bg-green-500 tl-border tl-rounded-lg">
     <img src={welcomeImage} className="tl-w-[500px] tl-rounded-tl-lg tl-rounded-bl-lg" />
     <form className="tl-bg-gray-200 tl-flex tl-justify-center tl-items-center tl-rounded-tr-lg tl-rounded-br-lg tl-flex-col tl-gap-5 tl-p-5 tl-w-[300px]">
-      <h2 className="tl-text-center tl-text-3xl tl-font-semibold tl-text-purple-800">Login</h2>
+      <h2 className="tl-text-center tl-text-3xl tl-font-semibold tl-text-purple-800">Register</h2>
       <input
         type="email" placeholder="Enter email" name="email"
         className="tl-bg-transparent tl-border-white tl-border-2 tl-rounded-full tl-p-3 tl-text-center tl-placeholder:text-white tl-w-full tl-text-white tl-outline-none"
@@ -21,6 +22,7 @@ function RegistrationForm() {
         type="submit"
         className="tl-bg-transparent tl-border-white tl-border-2 tl-rounded-full tl-p-3 tl-text-center tl-text-white tl-w-full tl-text-white tl-bg-purple-800 tl-cursor-pointer"
       >Submit</button>
+      <Link to="/login" className="tl-mt-3">Go to login</Link>
     </form>
     </div>
   );
