@@ -1,8 +1,11 @@
 // This is CircleCard
-function CircleCard(){
+
+function CircleCard(props){
+    console.log(props)
+    const { image } = props
     return(
         <div className="main tl-bg-funchisa-500 tl-h-30 tl-py-10">
-            <img src="card1.jpg"  className="tl-w-20 tl-rounded-full" />
+            <img src={image}  className="tl-w-20 tl-h-[115px] tl-rounded-full" />
         </div>
     )
 }
