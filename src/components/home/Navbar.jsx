@@ -9,7 +9,7 @@ function Navbar(){
             <li className='tl-cursor-pointer'>About</li>
             <li className='tl-cursor-pointer'>Products</li>
           </ul>
-          <button className='tl-bg-indigo-500 tl-text-white tl-p-3 tl-rounded-md hover:tl-bg-slate-900'>Login</button>
+          <Link to="/login" className='tl-bg-indigo-500 tl-text-white tl-h-8 tl-flex tl-items-center tl-rounded-md hover:tl-bg-rose-500 hover:tl-border hover:tl-border-rose-500'>Login</Link>
         </nav>
     )
 }

@@ -27,7 +27,7 @@ function CircleCardsSection() {
     ]
 
     return (
-      <div className='tl-flex tl-gap-x-20'>
+        <div className='tl-flex tl-justify-center tl-gap-x-20 tl-bg-gradient-to-tr tl-from-red-500 tl-to-blue-500 tl-w-full'>
         {images.map((item, index) => (
             <CircleCard
                 key={index} 
