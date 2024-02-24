@@ -4,7 +4,11 @@ import React from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 // Import your components/pages
-import { Home, Register, Login, NotFound } from '../pages'
+import Home from '../pages/HomePage'
+import Login from '../pages/LoginPage'
+import Register from '../pages/RegisterPage'
+import About from '../pages/AboutPage'
+import NotFound from '../components/NotFound'
 
 // Define your routes
 const Routing = () => {
@@ -14,6 +18,7 @@ const Routing = () => {
         <Route exact path="/" element={<Home/>} />
         <Route path="/register" element={<Register/>} />
         <Route path="/login" element={<Login/>} />
+        <Route path="/about" element={<About/>} />
         <Route element={<NotFound/>} />
       </Routes>
     </Router>
