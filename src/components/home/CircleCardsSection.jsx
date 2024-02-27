@@ -7,27 +7,27 @@ function CircleCardsSection() {
             img: "card1.jpg"
         },
         {
-            img: "card2.jpeg"
+            img: "card2.webp"
         },
         {
-            img: "card4.jpeg"
+            img: "card3.jpg"
+        },
+        {
+            img: "card4.webp"
         },
         {
             img: "card5.jpg"
         },
         {
-            img: "card2.jpeg"
+            img: "card6.jpg"
         },
         {
-            img: "card4.jpeg"
-        },
-        {
-            img: "card1.jpg"
+            img: "card7.jpg"
         },
     ]
 
     return (
-        <div className='tl-flex tl-justify-center tl-gap-x-20 tl-bg-gradient-to-tr tl-from-red-500 tl-to-blue-500 tl-w-full'>
+        <div className='tl-flex tl-justify-center tl-gap-x-12 tl-bg-gradient-to-tr tl-from-red-500 tl-to-blue-500 tl-w-full'>
         {images.map((item, index) => (
             <CircleCard
                 key={index} 
