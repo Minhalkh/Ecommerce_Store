@@ -12,7 +12,7 @@ function Navbar() {
           alt="Logo"
           className="tl-w-8 tl-h-9 tl-mr-2 tl-rounded-full"
         />
-        MilliShan
+        MilliStore
       </div>
       <div className="tl-flex tl-gap-4 tl-mt-[8px]">
         <ul className="tl-flex tl-gap-4">
