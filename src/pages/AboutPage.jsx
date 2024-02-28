@@ -2,7 +2,7 @@
 function AboutPage(){
     return(
         <>
-        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. At quod harum veritatis enim laborum nostrum odio sequi, iure reprehenderit similique soluta commodi error. Adipisci maxime accusamus sit incidunt porro.</div>
+        <div>About Page------ Lorem ipsum dolor sit amet consectetur adipisicing elit. At quod harum veritatis enim laborum nostrum odio sequi, iure reprehenderit similique soluta commodi error. Adipisci maxime accusamus sit incidunt porro.</div>
         </>
     )
 }
