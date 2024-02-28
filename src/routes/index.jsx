@@ -8,6 +8,7 @@ import Home from '../pages/HomePage'
 import Login from '../pages/LoginPage'
 import Register from '../pages/RegisterPage'
 import About from '../pages/AboutPage'
+import Products from '../pages/ProductsPage'
 import NotFound from '../components/NotFound'
 
 // Define your routes
@@ -19,6 +20,7 @@ const Routing = () => {
         <Route path="/register" element={<Register/>} />
         <Route path="/login" element={<Login/>} />
         <Route path="/about" element={<About/>} />
+        <Route path="/products" element={<Products/>} />
         <Route element={<NotFound/>} />
       </Routes>
     </Router>
