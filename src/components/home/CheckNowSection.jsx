@@ -1,5 +1,5 @@
 //This is CheckNowSection
-import Card from "./Card";
+import Card from "./CheckNowCard";
 
 function CheckNowSection() {
   return (
