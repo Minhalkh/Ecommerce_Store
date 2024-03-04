@@ -9,9 +9,6 @@ function Card() {
           className="tl-h-44 tl-w-60 tl-object-cover tl-rounded-t-lg"
         />
         <p className="tl-font-semibold tl-text-2xl tl-flex tl-justify-center tl-bg-white tl-h-16 tl-p-2 tl-rounded-b-lg">Earings</p>
-        <div>
-          <img src="chknow2.PNG" alt="bottle" className="tl-h-44 tl-w-60 tl-object-cover" />
-        </div>
       </div>
   );
 }
