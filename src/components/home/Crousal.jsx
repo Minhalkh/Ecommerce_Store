@@ -9,7 +9,9 @@ function Crousal() {
             Welcome To Our Store:
           </div>
           <p className="tl-m-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ratione neque dicta. Aperiam quaerat ut iste quae asperiores blanditiis neque velit harum mollitia repellat.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+            ratione neque dicta. Aperiam quaerat ut iste quae asperiores
+            blanditiis neque velit harum mollitia repellat.
           </p>
           <button className="tl-flex tl-items-center tl-h-8 tl-w-30 tl-text-white tl-bg-blue-500 hover:tl-bg-blue-200 hover:tl-text-black">
             shop now
