@@ -3,7 +3,6 @@ import Navbar from "../components/home/Navbar";
 import CircleCardsSection from "../components/home/CircleCardsSection";
 import Crousal from "../components/home/Crousal";
 import CheckNowSection from "../components/home/CheckNowSection";
-import ShopCategories from "../components/home/ShopCategories";
 import ShopCategoriesSection from "../components/home/ShopCategoriesSection";
 function Home() {
   return (
