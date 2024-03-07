@@ -4,20 +4,20 @@ import CheckNowCard from "./CheckNowCard";
 function CheckNowSection() {
   let images = [
     {
-      img: "checknow1.jpg",
+      img: "chknow1.PNG",
       title: "Earings",
     },
     {
       img: "chknow2.PNG",
-      title: "Earings 2",
+      title: "Hearts",
     },
     {
       img: "chknow3.jpg",
-      title: "Earings 3",
+      title: "Wedding",
     },
     {
       img: "chknow4.jpg",
-      title: "Earings 4",
+      title: "Chains",
     },
   ];
   return (
@@ -26,7 +26,7 @@ function CheckNowSection() {
         Check Now
       </h2>
       {images.map((item, index) => (
-        <CheckNowCard key={index} image={item.img} title={item.title} />
+        <CheckNowCard key={index} picture={item.img} title={item.title} />
       ))}
     </div>
   );

@@ -4,19 +4,19 @@ import ShopCategories from "./ShopCategories"
 function ShopCategoriesSection(){
   let images = [
     {
-      img: "checknow1.jpg",
+      img: "home1.jpg",
       title: "Earings",
     },
     {
-      img: "card2.webp",
+      img: "home2.jpg",
       title: "Earings 2",
     },
     {
-      img: "card3.jpg",
+      img: "home3.webp",
       title: "Earings 3",
     },
     {
-      img: "card4.webp",
+      img: "home2.jpg",
       title: "Earings 4",
     },
   ];
@@ -26,7 +26,7 @@ function ShopCategoriesSection(){
         Shop Category
       </h2>
       {images.map((item, index) => (
-        <ShopCategories key={index} image={item.img} title={item.title} />
+        <ShopCategories key={index} picture={item.img} title={item.title} />
       ))}
         </div>
     )
