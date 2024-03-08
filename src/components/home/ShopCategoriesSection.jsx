@@ -5,24 +5,24 @@ function ShopCategoriesSection(){
   let images = [
     {
       img: "home1.jpg",
-      title: "Earings",
+      title: "Home",
     },
     {
-      img: "home2.jpg",
-      title: "Earings 2",
+      img: "shop2.jpg",
+      title: "Mobiles",
     },
     {
-      img: "home3.webp",
-      title: "Earings 3",
+      img: "shop3.jpg",
+      title: "Accessories",
     },
     {
-      img: "home2.jpg",
-      title: "Earings 4",
+      img: "shop4.jpg",
+      title: "Decor Items",
     },
   ];
     return(
           <div className="tl-flex tl-w-full tl-h-96 tl-bg-white tl-gap-5">
-      <h2 className="tl-font-semibold tl-text-3xl tl-ml-12 tl-mt-10">
+      <h2 className="tl-font-semibold tl-text-3xl tl-mt-10">
         Shop Category
       </h2>
       {images.map((item, index) => (
