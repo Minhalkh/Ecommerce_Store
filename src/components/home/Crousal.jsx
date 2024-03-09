@@ -2,7 +2,8 @@
 
 function Crousal() {
   return (
-    <div className="tl-bg-blue-200 tl-py-8 tl-flex tl-justify-between tl-rounded-md tl-mt-32 tl-h-80 tl-m-5 tl-w-[1000px]">
+    <div className="tl-flex tl-justify-center tl-w-full">
+      <div className="tl-bg-blue-200 tl-py-8 tl-flex tl-justify-between tl-rounded-md tl-h-80 tl-w-[1000px] tl-mt-24">
       <div className="tl-w-1/2 tl-flex tl-justify-end">
         <div className="tl-w-96">
           <div className="tl-text-black tl-font-bold tl-flex tl-m-2">
@@ -25,6 +26,7 @@ function Crousal() {
           className="tl-w-46 tl-h-46 tl-rounded-md tl-object-cover"
         />
       </div>
+    </div>
     </div>
   );
 }
