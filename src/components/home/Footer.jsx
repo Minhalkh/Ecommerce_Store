@@ -2,14 +2,31 @@
 
 function Footer(){
     return(
-        <div className="tl-felx tl-justify-center tl-h-64 tl-w-full tl-bg-blue-200">
-            <div className="tl-flex tl-gap-64 tl-p-8 tl-ml-64 tl-mt-12">
-                <p>MilliStore</p>
-                <p>Follow For More Updates</p>
+        <div className="tl-flex tl-justify-around tl-h-64 tl-text-white tl-w-full tl-bg-blue-600">
+            <div className="tl-mt-16 tl-cursor-pointer">
+                <ul>
+                    <li className="tl-font-bold tl-text-xl">MilliStore</li>
+                    <li className="tl-mt-2">Earings</li>
+                    <li className="tl-mt-2">Dresses</li>
+                    <li className="tl-mt-2">Makeup</li>
+                    <li className="tl-mt-2">Mobiles</li>
+                </ul>
             </div>
-            <div className="tl-ml-64">
-            <p>Lorem ipsum dolor sit amet elit.</p>
-            <input type="text" placeholder="Enter E-Mail" className="tl-h-10 tl-bg-white tl-border tl-border-blue-200 tl-gap-64 tl-ml-64"/>
+            <div className="tl-mt-16 tl-cursor-pointer">
+                <ul>
+                    <li className="tl-font-bold tl-text-xl">About</li>
+                    <li className="tl-mt-2">Milli</li>
+                    <li className="tl-mt-2">Policies</li>
+                    <li className="tl-mt-2">Careers</li>
+                    <li className="tl-mt-2">Press</li>
+                </ul>
+            </div>
+            <div className="tl-mt-16 tl-cursor-pointer">
+                <ul>
+                    <li className="tl-font-bold tl-text-xl">Help</li>
+                    <li className="tl-mt-2">Help Center</li>
+                    <li className="tl-mt-2">Privacy Settings</li>
+                </ul>
             </div>
         </div>
     )

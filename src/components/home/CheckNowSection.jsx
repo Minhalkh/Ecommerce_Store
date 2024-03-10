@@ -17,7 +17,7 @@ function CheckNowSection() {
     },
     {
       img: "chknow5.jpg",
-      title: "Chains",
+      title: "Shoes",
     },
   ];
   return (

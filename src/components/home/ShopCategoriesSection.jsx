@@ -5,7 +5,7 @@ function ShopCategoriesSection(){
   let images = [
     {
       img: "home1.jpg",
-      title: "Home",
+      title: "Watches",
     },
     {
       img: "shop2.jpg",
