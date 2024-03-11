@@ -2,7 +2,7 @@
 
 function Footer(){
     return(
-        <div className=" tl-h-64 tl-w-full tl-bg-gray-400">
+        <div className=" tl-h-80 tl-w-full tl-bg-gray-400">
            <div className="tl-flex tl-justify-around">
            <div className="tl-mt-20 tl-w-1/2 tl-flex tl-justify-center tl-items-center">
            <div
