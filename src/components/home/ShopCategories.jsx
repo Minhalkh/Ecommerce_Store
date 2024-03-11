@@ -3,7 +3,7 @@
 function ShopCategories(props){
   const {picture,title} =props
     return(
-            <div className="tl-mt-28 tl-h-80 hover:tl-shadow-xl hover:tl-shadow-zinc-700 tl-rounded-md">
+            <div className="tl-mt-28 tl-h-90 hover:tl-shadow-xl hover:tl-shadow-zinc-700 tl-rounded-md">
         <img
           src={picture}
           alt="Home"

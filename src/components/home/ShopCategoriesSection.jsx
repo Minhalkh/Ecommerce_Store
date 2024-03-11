@@ -22,7 +22,7 @@ function ShopCategoriesSection(){
   ];
     return(
           <div className="tl-flex tl-w-full tl-h-96 tl-bg-white tl-gap-5">
-      <h2 className="tl-font-semibold tl-text-3xl tl-mt-10">
+      <h2 className="tl-font-semibold tl-text-3xl tl-mt-10 tl-ml-3">
         Shop Category
       </h2>
       {images.map((item, index) => (

@@ -21,8 +21,8 @@ function CheckNowSection() {
     },
   ];
   return (
-    <div className="tl-flex tl-w-full tl-h-96 tl-bg-gray-400 tl-gap-5 tl-mt-32">
-      <h2 className="tl-font-semibold tl-text-3xl tl-mt-10">
+    <div className="tl-flex tl-w-full tl-h-96 tl-bg-white tl-gap-5 tl-mt-32">
+      <h2 className="tl-font-semibold tl-text-3xl tl-mt-10 tl-ml-3">
         Check Now
       </h2>
       {images.map((item, index) => (
