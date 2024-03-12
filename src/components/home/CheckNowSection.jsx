@@ -21,14 +21,16 @@ function CheckNowSection() {
     },
   ];
   return (
-    <div className="tl-flex tl-w-full tl-h-96 tl-bg-white tl-gap-5 tl-mt-32">
-      <h2 className="tl-font-semibold tl-text-3xl tl-mt-10 tl-ml-3">
+    <>
+      <h2 className="tl-w-full tl-font-semibold tl-text-3xl tl-mt-16 tl-ml-16">
         Check Now
       </h2>
+      <div className="tl-flex tl-mt-10 tl-mb-20 tl-justify-center tl-w-full tl-gap-x-10">
       {images.map((item, index) => (
         <CheckNowCard key={index} picture={item.img} title={item.title} />
       ))}
     </div>
+    </>
   );
 }
 

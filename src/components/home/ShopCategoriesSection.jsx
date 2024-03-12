@@ -1,4 +1,4 @@
-// This is ShopCategories
+// This is ShopCategoriesSection
 import ShopCategories from "./ShopCategories"
 
 function ShopCategoriesSection(){
@@ -21,14 +21,16 @@ function ShopCategoriesSection(){
     },
   ];
     return(
-          <div className="tl-flex tl-w-full tl-h-96 tl-bg-white tl-gap-5">
-      <h2 className="tl-font-semibold tl-text-3xl tl-mt-10 tl-ml-3">
+      <>
+      <h2 className="tl-w-full tl-font-semibold tl-text-3xl tl-mt-16 tl-ml-16">
         Shop Category
       </h2>
+      <div className="tl-mt-10 tl-flex tl-justify-center tl-w-full tl-gap-5 tl-mb-5">
       {images.map((item, index) => (
         <ShopCategories key={index} picture={item.img} title={item.title} />
       ))}
         </div>
+      </>
     )
 }
 export default ShopCategoriesSection;

@@ -2,7 +2,7 @@
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 function Navbar() {
   return (
-    <nav className="tl-flex tl-justify-between tl-items-center tl-py-5 tl-px-20 tl-bg-gray-200 tl-w-full">
+    <nav className="tl-flex tl-justify-between tl-items-center tl-py-5 tl-px-20 tl-w-full">
       <div
         href="#"
         className="tl-flex tl-items-center tl-text-3xl tl-font-bold"
@@ -18,26 +18,26 @@ function Navbar() {
         <ul className="tl-flex tl-gap-4">
           <Link
             to="/"
-            className="tl-cursor-pointer tl-px-2 tl-h-8 hover:tl-text-rose-500 tl-items-center"
+            className="tl-cursor-pointer tl-px-2 tl-h-8 hover:tl-text-rose-500 tl-items-center tl-text-lg tl-font-bold"
           >
             Home
           </Link>
           <Link
             to="/about"
-            className="tl-cursor-pointer tl-px-2 tl-h-8 hover:tl-text-rose-500 tl-items-center"
+            className="tl-cursor-pointer tl-px-2 tl-h-8 hover:tl-text-rose-500 tl-items-center tl-text-lg tl-font-bold"
           >
             About
           </Link>
           <Link
             to="/products"
-            className="tl-cursor-pointer tl-px-2 tl-h-8 hover:tl-text-rose-500 tl-items-center"
+            className="tl-cursor-pointer tl-px-2 tl-h-8 hover:tl-text-rose-500 tl-items-center tl-text-lg tl-font-bold"
           >
             Products
           </Link>
         </ul>
         <Link
           to="/login"
-          className="tl-bg-indigo-500 tl-px-3 tl-h-7 tl-text-white hover:tl-text-white tl-flex tl-items-center tl-rounded-md hover:tl-bg-rose-500 hover:tl-border hover:tl-border-rose-500"
+          className="tl-bg-indigo-500 tl-px-3 tl-h-7 tl-text-lg tl-font-bold tl-text-white hover:tl-text-white tl-flex tl-items-center tl-rounded-md hover:tl-bg-rose-500"
         >
           Login
         </Link>

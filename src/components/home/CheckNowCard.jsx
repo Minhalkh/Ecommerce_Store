@@ -3,7 +3,7 @@
 function Card(props){
   const {picture,title} =props
   return (
-      <div className="tl-mt-28 tl-h-60 hover:tl-shadow-md hover:tl-shadow-slate-700 tl-rounded-md">
+      <div className="tl-h-60 hover:tl-shadow-md hover:tl-shadow-slate-700 tl-rounded-md tl-cursor-pointer">
         <img
           src={picture}
           alt="earing"
