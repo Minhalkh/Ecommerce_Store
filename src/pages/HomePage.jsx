@@ -5,6 +5,7 @@ import Crousal from "../components/home/Crousal";
 import ShopCategoriesSection from "../components/home/ShopCategoriesSection";
 import CheckNowSection from "../components/home/CheckNowSection";
 import Footer from "../components/home/Footer";
+import CopyRight from "../components/home/CopyRight";
 function Home() {
   return (
     <div className="main-app tl-flex tl-flex-col tl-items-center tl-w-full tl-top-0 tl-absolute tl-bg-white">
@@ -14,6 +15,7 @@ function Home() {
       <ShopCategoriesSection />
       <CheckNowSection />
       <Footer />
+      <CopyRight/>
     </div>
   );
 }

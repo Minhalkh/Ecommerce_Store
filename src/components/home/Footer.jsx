@@ -3,7 +3,7 @@
 function Footer(){
     return(
         <div className=" tl-h-80 tl-w-full tl-bg-gradient-to-tr tl-from-gray-100 tl-to-gray-800">
-           <div className="tl-flex tl-justify-around">
+           <div className="tl-flex tl-justify-around tl-w-[1100px]">
            <div className="tl-mt-20 tl-w-1/2 tl-flex tl-justify-center tl-items-center">
            <div
         href="#"
@@ -41,6 +41,7 @@ function Footer(){
                     <li className="tl-font-bold tl-text-xl">Help</li>
                     <li className="tl-mt-2">Help Center</li>
                     <li className="tl-mt-2">Privacy Settings</li>
+                    
                 </ul>
             </div>
             </div>
