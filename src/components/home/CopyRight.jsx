@@ -11,11 +11,11 @@ function CopyRight(){
             </div>
             <div className="tl-flex tl-gap-4 tl-cursor-pointer">
                     <p> © 2024 Milli, Inc.</p>
-                    <p>Terms of use </p>
-                    <p>Privacy</p>
-                    <p>Intrest-based-ads</p>
-                    <p>Local Shops</p>
-                    <p>Regions</p>
+                    <p className="tl-underline tl-underline-offset-1">Terms of use </p>
+                    <p className="tl-underline tl-underline-offset-1">Privacy</p>
+                    <p className="tl-underline tl-underline-offset-1">Intrest-based-ads</p>
+                    <p className="tl-underline tl-underline-offset-1">Local Shops</p>
+                    <p className="tl-underline tl-underline-offset-1">Regions</p>
             </div>
             </div>
         </div>
