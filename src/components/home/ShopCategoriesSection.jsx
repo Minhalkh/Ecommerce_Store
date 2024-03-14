@@ -1,7 +1,7 @@
 // This is ShopCategoriesSection
-import ShopCategories from "./ShopCategories"
+import ShopCategories from "./ShopCategories";
 
-function ShopCategoriesSection(){
+function ShopCategoriesSection() {
   let images = [
     {
       img: "home1.jpg",
@@ -20,17 +20,17 @@ function ShopCategoriesSection(){
       title: "Decor Items",
     },
   ];
-    return(
-      <>
+  return (
+    <>
       <h2 className="tl-w-full tl-font-semibold tl-text-3xl tl-mt-16 tl-ml-16">
         Shop Category
       </h2>
       <div className="tl-mt-10 tl-flex tl-justify-center tl-w-full tl-gap-5 tl-mb-5">
-      {images.map((item, index) => (
-        <ShopCategories key={index} picture={item.img} title={item.title} />
-      ))}
-        </div>
-      </>
-    )
+        {images.map((item, index) => (
+          <ShopCategories key={index} picture={item.img} title={item.title} />
+        ))}
+      </div>
+    </>
+  );
 }
 export default ShopCategoriesSection;

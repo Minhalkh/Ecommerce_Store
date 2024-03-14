@@ -26,10 +26,10 @@ function CheckNowSection() {
         Check Now
       </h2>
       <div className="tl-flex tl-mt-10 tl-mb-20 tl-justify-center tl-w-full tl-gap-x-10">
-      {images.map((item, index) => (
-        <CheckNowCard key={index} picture={item.img} title={item.title} />
-      ))}
-    </div>
+        {images.map((item, index) => (
+          <CheckNowCard key={index} picture={item.img} title={item.title} />
+        ))}
+      </div>
     </>
   );
 }
