@@ -6,6 +6,9 @@ function AboutPage(){
         <div>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fugiat quibusdam ex numquam exercitationem laboriosam, quo asperiores quae distinctio praesentium.
         </div>
+        <div>
+            {/* Minhal Milli */}
+        </div>
         </>
     )
 }
