@@ -22,7 +22,7 @@ function ShopCategoriesSection() {
   ];
   return (
     <>
-      <h2 className="tl-w-full tl-font-semibold tl-text-3xl tl-mt-16 tl-ml-16">
+      <h2 className="tl-w-full tl-font-semibold tl-text-3xl tl-mt-16 tl-pl-16">
         Shop Category
       </h2>
       <div className="tl-mt-10 tl-flex tl-justify-center tl-w-full tl-gap-5 tl-mb-5">

@@ -1,5 +1,5 @@
 //This is footer
-import CopyRight from "./CopyRight";
+import CopyRight from "./home/CopyRight";
 
 function Footer() {
   return (

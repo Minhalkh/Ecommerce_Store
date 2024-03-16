@@ -22,7 +22,7 @@ function CheckNowSection() {
   ];
   return (
     <>
-      <h2 className="tl-w-full tl-font-semibold tl-text-3xl tl-mt-16 tl-ml-16">
+      <h2 className="tl-w-full tl-font-semibold tl-text-3xl tl-mt-16 tl-pl-16">
         Check Now
       </h2>
       <div className="tl-flex tl-mt-10 tl-mb-20 tl-justify-center tl-w-full tl-gap-x-10">
