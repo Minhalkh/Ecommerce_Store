@@ -34,6 +34,9 @@ function Card(props) {
                     {product.location}
                 </p>
             </div>
+            <div>
+                {/* Commented */}
+            </div>
         </div>
     )
 }
