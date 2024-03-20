@@ -6,7 +6,7 @@ function ProductsCardsSection() {
     let products =[
         {
             img : "Product1.jpg",
-            title : "title 1",
+            title : "Watches",
             price: 100,
             description: "this is description of product 1",
             location: "wah cantt",
@@ -14,7 +14,7 @@ function ProductsCardsSection() {
         },
         {
             img : "Product2.jpg",
-            title : "title 2",
+            title : "Decor",
             price: 200,
             description: "this is description of the product 2",
             location: "wah cantt",
@@ -22,7 +22,7 @@ function ProductsCardsSection() {
         },
         {
             img : "Product3.jpg",
-            title : "title 3",
+            title : "Wall Clocks",
             price: 300,
             description: "this is description of product 3",
             location: "wah cantt",
@@ -30,7 +30,7 @@ function ProductsCardsSection() {
         },
         {
             img : "Product4.jpg",
-            title : "title 4",
+            title : "Art Gallery",
             price: 250,
             description: "this is description of the product 4",
             location: "wah cantt",
@@ -38,7 +38,7 @@ function ProductsCardsSection() {
         },
         {
             img : "Product5.jpg",
-            title : "title 5",
+            title : "Shoes",
             price: 300,
             description: "this is description of product 5",
             location: "wah cantt",
@@ -46,7 +46,7 @@ function ProductsCardsSection() {
         },
         {
             img : "Product6.jpg",
-            title : "title 6",
+            title : "Dresses",
             price: 150,
             description: "this is description of the product 6",
             location: "lahore",
@@ -54,7 +54,7 @@ function ProductsCardsSection() {
         },
         {
             img : "Product7.jpg",
-            title : "title 7",
+            title : "Earings",
             price: 300,
             description: "this is description of the product 7",
             location: "lahore",
@@ -62,7 +62,7 @@ function ProductsCardsSection() {
         },
         {
             img : "Product8.jpg",
-            title : "title 8",
+            title : "Makeup",
             price: 300,
             description: "this is description of product 8",
             location: "lahore",
@@ -70,7 +70,7 @@ function ProductsCardsSection() {
         },
         {
             img : "Product9.jpg",
-            title : "title 9",
+            title : "Mobiles",
             price: 130,
             description: "this is description of the product 9",
             location: "lahore",
@@ -78,7 +78,7 @@ function ProductsCardsSection() {
         },
         {
             img : "Product10.jpg",
-            title : "title 10",
+            title : "Rings",
             price: 300,
             description: "this is description of product 10",
             location: "lahore",
@@ -86,7 +86,7 @@ function ProductsCardsSection() {
         },
         {
             img : "Product12.jpg",
-            title : "title 11",
+            title : "Shoes",
             price: 180,
             description: "this is description of the product 11",
             location: "rawalpindi",
@@ -94,15 +94,15 @@ function ProductsCardsSection() {
         },
         {
             img : "Product13.jpg",
-            title : "title 12",
+            title : "Cosmetics",
             price: 170,
             description: "this is description of the product 12",
             location: "rawalpindi",
             favourite: false
         },
         {
-            img : "Product2.jpg",
-            title : "title 13",
+            img : "Product15.jpg",
+            title : "Decor",
             price: 300,
             description: "this is description of product 13",
             location: "rawalpindi",
@@ -110,15 +110,15 @@ function ProductsCardsSection() {
         },
         {
             img : "Product11.jpg",
-            title : "title 14",
+            title : "Jewellery",
             price: 300,
             description: "this is description of the product 14",
             location: "islamabad",
             favourite: false
         },
         {
-            img : "Product6.jpg",
-            title : "title 15",
+            img : "Product14.jpg",
+            title : "Kids Dresses",
             price: 450,
             description: "this is description of the product 15",
             location: "islamabad",
