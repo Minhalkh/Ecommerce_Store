@@ -139,7 +139,15 @@ function ProductsCardsSection() {
             description: "this is description of the product 15",
             location: "islamabad",
             favourite: false
-        }
+        },
+        {
+            img : "Product19.jpg",
+            title : " Dresses",
+            price: 450,
+            description: "this is description of the product 15",
+            location: "islamabad",
+            favourite: false
+        },
     ]
     return (
         <div>
