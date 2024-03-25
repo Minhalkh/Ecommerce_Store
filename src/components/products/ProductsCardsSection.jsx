@@ -38,7 +38,7 @@ function ProductsCardsSection() {
         },
         {
             img : "Product5.jpg",
-            title : "Shoes",
+            title : "Sneakers",
             price: 300,
             description: "this is description of product 5",
             location: "wah cantt",
@@ -134,7 +134,15 @@ function ProductsCardsSection() {
         },
         {
             img : "Product18.jpg",
-            title : "Shirts",
+            title : " Girls Shirts",
+            price: 450,
+            description: "this is description of the product 15",
+            location: "islamabad",
+            favourite: false
+        },
+        {
+            img : "Product17.jpg",
+            title : " Gents Kurta",
             price: 450,
             description: "this is description of the product 15",
             location: "islamabad",
@@ -142,23 +150,55 @@ function ProductsCardsSection() {
         },
         {
             img : "Product19.jpg",
-            title : " Dresses",
+            title : " Boys Pent Shirt",
             price: 450,
             description: "this is description of the product 15",
             location: "islamabad",
             favourite: false
         },
         {
-            img : "Product19.jpg",
-            title : " Dresses",
+            img : "Product20.jpg",
+            title : " Matching Outfit",
             price: 450,
             description: "this is description of the product 15",
             location: "islamabad",
             favourite: false
         },
         {
-            img : "Product19.jpg",
-            title : " Dresses",
+            img : "Product21.jpg",
+            title : " Girls Shoes",
+            price: 450,
+            description: "this is description of the product 15",
+            location: "islamabad",
+            favourite: false
+        },
+        {
+            img : "Product22.jpg",
+            title : " Kids Shoes",
+            price: 450,
+            description: "this is description of the product 15",
+            location: "islamabad",
+            favourite: false
+        },
+        {
+            img : "Product23.jpg",
+            title : " Eastern Dress",
+            price: 450,
+            description: "this is description of the product 15",
+            location: "islamabad",
+            favourite: false
+        },
+        {
+            img : "Product20.jpg",
+            title : " Matching Outfit",
+            price: 450,
+            description: "this is description of the product 15",
+            location: "islamabad",
+            favourite: false
+        },
+        {
+            img : "Product20.jpg",
+            title : " Matching Outfit",
             price: 450,
             description: "this is description of the product 15",
             location: "islamabad",
