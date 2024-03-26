@@ -189,7 +189,63 @@ function ProductsCardsSection() {
             favourite: false
         },
         {
-            img : "Product20.jpg",
+            img : "Product24.jpg",
+            title : " Matching Outfit",
+            price: 450,
+            description: "this is description of the product 15",
+            location: "islamabad",
+            favourite: false
+        },
+        {
+            img : "Product25.jpg",
+            title : " Matching Outfit",
+            price: 450,
+            description: "this is description of the product 15",
+            location: "islamabad",
+            favourite: false
+        },
+        {
+            img : "Product26.jpg",
+            title : " Matching Outfit",
+            price: 450,
+            description: "this is description of the product 15",
+            location: "islamabad",
+            favourite: false
+        },
+        {
+            img : "Product27.jpg",
+            title : " Matching Outfit",
+            price: 450,
+            description: "this is description of the product 15",
+            location: "islamabad",
+            favourite: false
+        },
+        {
+            img : "Product28.jpg",
+            title : " Matching Outfit",
+            price: 450,
+            description: "this is description of the product 15",
+            location: "islamabad",
+            favourite: false
+        },
+        {
+            img : "Product29.jpg",
+            title : " Matching Outfit",
+            price: 450,
+            description: "this is description of the product 15",
+            location: "islamabad",
+            favourite: false
+        },
+        {
+            img : "Product30.jpg",
+            title : " Matching Outfit",
+            price: 450,
+            description: "this is description of the product 15",
+            location: "islamabad",
+            favourite: false
+        },
+        {
+            img : "Product31.jpg",
             title : " Matching Outfit",
             price: 450,
             description: "this is description of the product 15",
@@ -198,6 +254,70 @@ function ProductsCardsSection() {
         },
         {
             img : "Product20.jpg",
+            title : " Matching Outfit",
+            price: 450,
+            description: "this is description of the product 15",
+            location: "islamabad",
+            favourite: false
+        },
+        {
+            img : "Product19.jpg",
+            title : " Matching Outfit",
+            price: 450,
+            description: "this is description of the product 15",
+            location: "islamabad",
+            favourite: false
+        },
+        {
+            img : "Product10.jpg",
+            title : " Matching Outfit",
+            price: 450,
+            description: "this is description of the product 15",
+            location: "islamabad",
+            favourite: false
+        },
+        {
+            img : "Product2.jpg",
+            title : " Matching Outfit",
+            price: 450,
+            description: "this is description of the product 15",
+            location: "islamabad",
+            favourite: false
+        },
+        {
+            img : "Product5.jpg",
+            title : " Matching Outfit",
+            price: 450,
+            description: "this is description of the product 15",
+            location: "islamabad",
+            favourite: false
+        },
+        {
+            img : "Product18.jpg",
+            title : " Matching Outfit",
+            price: 450,
+            description: "this is description of the product 15",
+            location: "islamabad",
+            favourite: false
+        },
+        {
+            img : "Product9.jpg",
+            title : " Matching Outfit",
+            price: 450,
+            description: "this is description of the product 15",
+            location: "islamabad",
+            favourite: false
+        },
+        {
+            img : "Product15.jpg",
+            title : " Matching Outfit",
+            price: 450,
+            description: "this is description of the product 15",
+            location: "islamabad",
+            favourite: false
+        },
+        {
+            img : "Product22.jpg",
             title : " Matching Outfit",
             price: 450,
             description: "this is description of the product 15",
