@@ -38,7 +38,7 @@ function ProductsCardsSection() {
         },
         {
             img : "Product5.jpg",
-            title : "Shoes",
+            title : "Sneakers",
             price: 300,
             description: "this is description of product 5",
             location: "wah cantt",
@@ -123,7 +123,207 @@ function ProductsCardsSection() {
             description: "this is description of the product 15",
             location: "islamabad",
             favourite: false
-        }
+        },
+        {
+            img : "Product16.jpg",
+            title : "Kids Dresses",
+            price: 450,
+            description: "this is description of the product 15",
+            location: "islamabad",
+            favourite: false
+        },
+        {
+            img : "Product18.jpg",
+            title : " Girls Shirts",
+            price: 450,
+            description: "this is description of the product 15",
+            location: "islamabad",
+            favourite: false
+        },
+        {
+            img : "Product17.jpg",
+            title : " Gents Kurta",
+            price: 450,
+            description: "this is description of the product 15",
+            location: "islamabad",
+            favourite: false
+        },
+        {
+            img : "Product19.jpg",
+            title : " Boys Pent Shirt",
+            price: 450,
+            description: "this is description of the product 15",
+            location: "islamabad",
+            favourite: false
+        },
+        {
+            img : "Product20.jpg",
+            title : " Matching Outfit",
+            price: 450,
+            description: "this is description of the product 15",
+            location: "islamabad",
+            favourite: false
+        },
+        {
+            img : "Product21.jpg",
+            title : " Girls Shoes",
+            price: 450,
+            description: "this is description of the product 15",
+            location: "islamabad",
+            favourite: false
+        },
+        {
+            img : "Product22.jpg",
+            title : " Kids Shoes",
+            price: 450,
+            description: "this is description of the product 15",
+            location: "islamabad",
+            favourite: false
+        },
+        {
+            img : "Product23.jpg",
+            title : " Eastern Dress",
+            price: 450,
+            description: "this is description of the product 15",
+            location: "islamabad",
+            favourite: false
+        },
+        {
+            img : "Product24.jpg",
+            title : " Matching Outfit",
+            price: 450,
+            description: "this is description of the product 15",
+            location: "islamabad",
+            favourite: false
+        },
+        {
+            img : "Product25.jpg",
+            title : " Matching Outfit",
+            price: 450,
+            description: "this is description of the product 15",
+            location: "islamabad",
+            favourite: false
+        },
+        {
+            img : "Product26.jpg",
+            title : " Matching Outfit",
+            price: 450,
+            description: "this is description of the product 15",
+            location: "islamabad",
+            favourite: false
+        },
+        {
+            img : "Product27.jpg",
+            title : " Matching Outfit",
+            price: 450,
+            description: "this is description of the product 15",
+            location: "islamabad",
+            favourite: false
+        },
+        {
+            img : "Product28.jpg",
+            title : " Matching Outfit",
+            price: 450,
+            description: "this is description of the product 15",
+            location: "islamabad",
+            favourite: false
+        },
+        {
+            img : "Product29.jpg",
+            title : " Matching Outfit",
+            price: 450,
+            description: "this is description of the product 15",
+            location: "islamabad",
+            favourite: false
+        },
+        {
+            img : "Product30.jpg",
+            title : " Matching Outfit",
+            price: 450,
+            description: "this is description of the product 15",
+            location: "islamabad",
+            favourite: false
+        },
+        {
+            img : "Product31.jpg",
+            title : " Matching Outfit",
+            price: 450,
+            description: "this is description of the product 15",
+            location: "islamabad",
+            favourite: false
+        },
+        {
+            img : "Product20.jpg",
+            title : " Matching Outfit",
+            price: 450,
+            description: "this is description of the product 15",
+            location: "islamabad",
+            favourite: false
+        },
+        {
+            img : "Product19.jpg",
+            title : " Matching Outfit",
+            price: 450,
+            description: "this is description of the product 15",
+            location: "islamabad",
+            favourite: false
+        },
+        {
+            img : "Product10.jpg",
+            title : " Matching Outfit",
+            price: 450,
+            description: "this is description of the product 15",
+            location: "islamabad",
+            favourite: false
+        },
+        {
+            img : "Product2.jpg",
+            title : " Matching Outfit",
+            price: 450,
+            description: "this is description of the product 15",
+            location: "islamabad",
+            favourite: false
+        },
+        {
+            img : "Product5.jpg",
+            title : " Matching Outfit",
+            price: 450,
+            description: "this is description of the product 15",
+            location: "islamabad",
+            favourite: false
+        },
+        {
+            img : "Product18.jpg",
+            title : " Matching Outfit",
+            price: 450,
+            description: "this is description of the product 15",
+            location: "islamabad",
+            favourite: false
+        },
+        {
+            img : "Product9.jpg",
+            title : " Matching Outfit",
+            price: 450,
+            description: "this is description of the product 15",
+            location: "islamabad",
+            favourite: false
+        },
+        {
+            img : "Product15.jpg",
+            title : " Matching Outfit",
+            price: 450,
+            description: "this is description of the product 15",
+            location: "islamabad",
+            favourite: false
+        },
+        {
+            img : "Product22.jpg",
+            title : " Matching Outfit",
+            price: 450,
+            description: "this is description of the product 15",
+            location: "islamabad",
+            favourite: false
+        },
     ]
     return (
         <div>
