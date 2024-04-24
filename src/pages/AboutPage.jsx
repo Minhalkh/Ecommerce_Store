@@ -1,15 +1,12 @@
 //This is about page
-function AboutPage(){
-    return(
-        <>
-        <div>About Page------ Lorem ipsum dolor sit amet consectetur adipisicing elit. At quod harum veritatis enim laborum nostrum odio sequi, iure reprehenderit similique soluta commodi error. Adipisci maxime accusamus sit incidunt porro.</div>
-        <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fugiat quibusdam ex numquam exercitationem laboriosam, quo asperiores quae distinctio praesentium.
-        </div>
-        <div>
-            {/* Minhal Milli */}
-        </div>
-        </>
-    )
+function AboutPage() {
+  return (
+    <div className="tl-bg-gray-600 tl-w-[1365px] tl-text-center tl-text-[72px]">
+      <div className="red-color display-block tl-hidden">I'm Phone</div>
+      <div className="box-2">I'm Tab</div>
+      <div className="box-3">I'm Com</div>
+      <div className="box-4">I'm WideScreen</div>
+    </div>
+  );
 }
-export default AboutPage
+export default AboutPage;
