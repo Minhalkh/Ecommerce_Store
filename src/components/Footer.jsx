@@ -44,10 +44,10 @@ function Footer() {
               <li className="tl-mt-2">Privacy Settings</li>
             </ul>
             <div className="tl-flex tl-gap-4 tl-mt-4">
-            <i class="fa fa-instagram" aria-hidden="true"></i>
-              <i class="fa fa-facebook-official" aria-hidden="true"></i>
-              <i class="fa fa-snapchat-ghost" aria-hidden="true"></i>
-              <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i className="fa fa-instagram" aria-hidden="true"></i>
+              <i className="fa fa-facebook-official" aria-hidden="true"></i>
+              <i className="fa fa-snapchat-ghost" aria-hidden="true"></i>
+              <i className="fa fa-twitter" aria-hidden="true"></i>
             </div>
           </div>
         </div>

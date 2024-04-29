@@ -1,7 +1,7 @@
 // this is Card.jsx
 
 function Card(props) {
-    const { product } = props;
+    const { product , functionProp } = props;
     return (
         <div className="tl-h-72 hover:tl-shadow-md hover:tl-shadow-slate-700 tl-rounded-md tl-cursor-pointer">
             <img
@@ -18,10 +18,10 @@ function Card(props) {
                     </div>
                     {/* conditional rendering */}
                     {!product.favourite && (
-                        <i class="fa fa-heart-o tl-pt-2 tl-pr-1" />
+                        <i className="fa fa-heart-o tl-pt-2 tl-pr-1" onClick={functionProp}/>
                     )}
                     {product.favourite && (
-                        <i class="fa fa-heart tl-pt-2 tl-pr-1" />
+                        <i className="fa fa-heart tl-pt-2 tl-pr-1" onClick={functionProp}/>
                     )}
                 </div>
                 <span className="tl-text-md">

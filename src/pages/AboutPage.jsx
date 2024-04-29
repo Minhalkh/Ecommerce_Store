@@ -1,15 +1,21 @@
 //This is about page
-function AboutPage(){
-    return(
-        <>
-        <div>About Page------ Lorem ipsum dolor sit amet consectetur adipisicing elit. At quod harum veritatis enim laborum nostrum odio sequi, iure reprehenderit similique soluta commodi error. Adipisci maxime accusamus sit incidunt porro.</div>
-        <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fugiat quibusdam ex numquam exercitationem laboriosam, quo asperiores quae distinctio praesentium.
-        </div>
-        <div>
-            {/* Minhal Milli */}
-        </div>
-        </>
-    )
+import Navbar from "../components/Navbar";
+import Crousal from "../components/home/Crousal";
+import Paragraph from "../components/about/AboutParagraph";
+import Icons from "../components/about/Icons";
+import Footer from "../components/Footer";
+
+function AboutPage() {
+  return (
+    <div className="main-app tl-flex tl-flex-col tl-items-center tl-w-full tl-top-0 tl-absolute tl-bg-white">
+      <Navbar />
+      <Crousal storeName="Milli E-Commerce" />
+      <Paragraph />
+      <Icons />
+      <Footer />
+    </div>
+  );
 }
-export default AboutPage
+
+export default AboutPage;
+

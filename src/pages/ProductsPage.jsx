@@ -12,7 +12,7 @@ function ProductsPage(){
             <div className="tl-w-1/5 tl-bg-red-400">
                 <Filteration />
             </div>
-            <div className="tl-w-4/5 tl-bg-green-300">
+            <div className="tl-w-4/5">
                 <ProductsCardsSection />
             </div>
             </div>
