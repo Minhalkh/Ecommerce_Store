@@ -3,7 +3,7 @@
 function Crousal(props) {
   const { storeName= "Welcome To Our Store" } = props;
   return (
-    <div className="tl-flex tl-justify-center tl-w-full">
+    <div className="tl-flex tl-justify-center tl-w-100%">
       <div className="tl-bg-blue-200 tl-py-8 tl-flex tl-justify-between tl-rounded-md tl-h-80 tl-w-[1000px] tl-mt-24">
         <div className="tl-w-1/2 tl-flex tl-justify-end">
           <div className="tl-w-96">

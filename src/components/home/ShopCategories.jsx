@@ -3,11 +3,11 @@
 function ShopCategories(props) {
   const { picture, title } = props;
   return (
-    <div className="tl-h-90 hover:tl-shadow-xl hover:tl-shadow-zinc-700 tl-rounded-md tl-cursor-pointer">
+    <div className="shop-catagory tl-h-90 hover:tl-shadow-xl hover:tl-shadow-zinc-700 tl-rounded-md tl-cursor-pointer">
       <img
         src={picture}
         alt="Home"
-        className="tl-h-80 tl-w-64 tl-object-cover tl-rounded-t-lg"
+        className="category-image tl-h-80 tl-w-64 tl-object-cover tl-rounded-t-lg"
       />
       {/* <i className="fa fa-spinner fa-spin" />
         <i className="fa fa-facebook-square" /> */}
