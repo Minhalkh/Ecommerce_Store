@@ -133,24 +133,6 @@
 
 
 /* For Shop Category */
-/* @media screen and (min-width: 640px) {
-  .category-container {
-    width: 50%;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .category-container {
-    width: 33.33%;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .category-container {
-    width: 25%;
-  }
-} */
-
 @media screen and (min-width: 350px) and (max-width: 770px) {
   .category-image {
     height: 300px;
@@ -170,29 +152,36 @@
 
 
 /* Crousal */
-@media (max-width: 768px) {
-  .carousel-content {
-    justify-content: flex-start;
-  }
-
-  .bg-blue-200 {
-    width: calc(100% - 20px);
-    margin-right: 10px;
-    margin-left: 10px;
-  }
-
-  .bg-blue-200 > .md\:w-1\/2 {
-    width: 100%;
-    max-width: none;
-  }
-
-  .bg-blue-200 > .md\:w-1\/2 img {
-    width: 100%;
-  }
+@media screen and (max-width: 550px){
+ .crousal-width{
+  width: 400px;
+ }
+ .img-content {
+  width: 300px;
+  margin-top: 20px;
+ }
+}
+@media screen and (min-width: 551px) and (max-width: 769px){
+  .crousal-width{
+    width: 560px;
+   }
+   .img-content {
+    width: 300px;
+    margin-top: 20px;
+   }
+}
+@media screen and (min-width: 769px) and (max-width: 1000px){
+  .crousal-width{
+    width: 850px;
+   }
 }
 
-@media (max-width: 640px) {
-  .bg-blue-200 > .md\:w-1\/2 img {
-    height: auto;
+/* product page */
+@media screen and (max-width: 768px) {
+  .product-container {
+    margin: 20px;
+  }
+  .product-height {
+    height: 140px;
   }
 }

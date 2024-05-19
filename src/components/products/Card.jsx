@@ -3,13 +3,13 @@
 function Card(props) {
     const { product , functionProp } = props;
     return (
-        <div className="tl-h-72 hover:tl-shadow-md hover:tl-shadow-slate-700 tl-rounded-md tl-cursor-pointer">
+        <div className="product-container tl-h-72 hover:tl-shadow-md hover:tl-shadow-slate-700 tl-rounded-md tl-cursor-pointer">
             <img
                 src={product.img}
                 alt="earing"
                 className="tl-h-44 tl-w-60 tl-object-cover tl-rounded-t-lg"
             />
-            <div className="tl-flex tl-flex-col tl-bg-white tl-border tl-border-slate-300 tl-h-28 tl-p-2 tl-rounded-b-lg">
+            <div className="product-height tl-flex tl-flex-col tl-bg-white tl-border tl-border-slate-300 tl-h-28 tl-p-2 tl-rounded-b-lg">
                 <div className="tl-flex tl-justify-between">
                     <div className="tl-flex">
                         <p className="tl-font-semibold tl-text-2xl tl-flex tl-justify-center">

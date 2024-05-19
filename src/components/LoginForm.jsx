@@ -18,10 +18,10 @@ function Login() {
         name="password"
         className="tl-bg-blue tl-border-white tl-border-2 tl-rounded-full tl-p-3 tl-text-center tl-placeholder:text-white tl-w-full tl-text-white tl-outline-none"
       />
-      <button
-        type="submit"
+      <Link
+        to="/"
         className="tl-bg-#580979 tl-border-white tl-border-2 tl-rounded-full tl-p-3 tl-text-center tl-text-white tl-w-full tl-text-white tl-bg-purple-800 tl-cursor-pointer"
-      >Submit</button>
+      >Submit</Link>
       <Link to="/register" className="tl-mt-3">Do you want to create new account</Link>
     </form>
     </div>
