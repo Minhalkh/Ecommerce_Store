@@ -30,10 +30,10 @@ function RegistrationForm() {
         name="password"
         className=" tl-border-white tl-border-2 tl-rounded-full tl-p-3 tl-text-center tl-placeholder:text-white tl-w-full tl-text-white tl-outline-none"
       />
-      <button
-        type="submit"
+      <Link
+        to="/login"
         className="tl-bg-[#580979] tl-border-white tl-border-2 tl-rounded-full tl-p-3 tl-text-center tl-text-white tl-w-full tl-text-white tl-bg-purple-800 tl-cursor-pointer"
-      >Submit</button>
+      >Submit</Link>
       <Link to="/login" className="tl-mt-3">Already have an account</Link>
     </form>
     </div>

@@ -9,10 +9,10 @@ function ProductsPage(){
         <div className="main-app tl-flex tl-flex-col tl-items-center tl-w-full tl-top-0 tl-absolute tl-bg-white">
             <Navbar />
             <div className="tl-flex tl-w-full">
-            <div className="tl-w-1/5 tl-bg-red-400">
+            {/* <div className="tl-w-1/5 tl-bg-red-400">
                 <Filteration />
-            </div>
-            <div className="tl-w-4/5">
+            </div> */}
+            <div className="tl-w-full">
                 <ProductsCardsSection />
             </div>
             </div>

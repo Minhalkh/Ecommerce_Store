@@ -1,8 +1,187 @@
-  @media screen and (min-width: 700px) and (max-width: 1200px){
-   .display-block{
-      display: block !important;
-     }
-    .red-color{
-      color: red;
-    } 
+/* Media queries for responsiveness For Paragraph in About page */
+@media screen and (max-width: 600px) {
+  .paragraph-container {
+      padding: 8px;
   }
+
+  .paragraph-content {
+      padding: 8px;
+  }
+}
+
+/* For Icons in aboutpage */
+@media screen and (max-width: 768px) {
+  .icon-wrapper {
+    flex-basis: calc(50% - 20px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .icon-wrapper {
+    flex-basis: calc(100% - 20px);
+  }
+}
+
+/* For Crousal in Home */
+@media screen and (max-width: 768px) {
+  .carousel-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .left-content {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .right-content {
+    width: 100%;
+  }
+}
+
+/* For Footer */
+@media screen and (max-width: 768px) {
+  .tl-w-1\/2 {
+    width: 100%;
+  }
+
+  .tl-m-2 {
+    margin: 8px 0;
+  }
+
+  .tl-gap-28 {
+    gap: 16px;
+  }
+
+  .tl-mt-16 {
+    margin-top: 12px;
+  }
+
+  .tl-mr-16 {
+    margin-right: 12px;
+  }
+
+  .tl-ml-28 {
+    margin-left: 12px;
+  }
+
+  .tl-text-3xl {
+    font-size: 1.5rem;
+  }
+
+  .tl-w-8, .tl-h-9 {
+    width: 24px;
+    height: 28px;
+  }
+
+  .tl-font-bold {
+    font-weight: bold;
+  }
+
+  .tl-text-xl {
+    font-size: 1.25rem;
+  }
+
+  .tl-h-80 {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .tl-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tl-gap-4 {
+    gap: 8px;
+  }
+
+  .tl-mt-20 {
+    margin-top: 16px;
+  }
+
+  .tl-flex ul {
+    margin-bottom: 16px;
+  }
+
+  .tl-mt-4 {
+    margin-top: 8px;
+  }
+
+  .tl-w-full {
+    width: 100%;
+  }
+}
+
+/* Navbar */
+@media screen and (max-width: 768px) {
+  .tl-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .tl-gap-4 {
+    margin-top: 10px;
+  }
+  
+  .tl-gap-4 > * {
+    margin-bottom: 10px;
+  }
+}
+
+
+/* For Shop Category */
+@media screen and (min-width: 350px) and (max-width: 770px) {
+  .category-image {
+    height: 300px;
+  }
+  .shop-catagory {
+    margin: 20px;
+  }
+}
+
+/* CheckNow */
+@media screen and (max-width: 768px) {
+  .checkNow-section {
+    margin: 20px;
+  
+  }
+}
+
+
+/* Crousal */
+@media screen and (max-width: 550px){
+ .crousal-width{
+  width: 400px;
+ }
+ .img-content {
+  width: 300px;
+  margin-top: 20px;
+ }
+}
+@media screen and (min-width: 551px) and (max-width: 769px){
+  .crousal-width{
+    width: 560px;
+   }
+   .img-content {
+    width: 300px;
+    margin-top: 20px;
+   }
+}
+@media screen and (min-width: 769px) and (max-width: 1000px){
+  .crousal-width{
+    width: 850px;
+   }
+}
+
+/* product page */
+@media screen and (max-width: 768px) {
+  .product-container {
+    margin: 20px;
+  }
+  .product-height {
+    height: 140px;
+  }
+}
